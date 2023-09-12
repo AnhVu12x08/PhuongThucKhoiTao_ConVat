@@ -28,12 +28,14 @@ namespace OOP
             double h = 10.5;
             SucVat heo = new SucVat(w,h);
             heo.xuat();
+
             //su dung bien tinh thong qua ten lop ma khong can thong qua doi tuong
             Console.WriteLine("so con vat la {0}", SucVat.count);
             //su dung phuong thuc tinh thong qua ten lop ma khong can phai tao doi tuong
+            //neu khong co phuong thuc tinh thi ta phai tao doi tuong de co the goi phuong thuc tinh tong thong qua doi tuong
             int x = 10;
             int y = 20;
-            Console.WriteLine("ket qua tong cua x lva y la {0}", SucVat.tinhtong(x, y));
+            Console.WriteLine("ket qua tong cua x va y la {0}", TienIch.tinhtong(x, y));
 
         }
     }

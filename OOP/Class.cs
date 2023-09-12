@@ -66,9 +66,15 @@ namespace OOP
         {
             Console.WriteLine("Chieu cao cua ga/heo la {0}  Can nang la {1}", height, weight);
         }
+
+    }
+    public static class TienIch
+    {
+        //phuong thuc tinh la phong thuc dung chung cua lop. goi thong qua ten class ma khong can khoi tao doi tuong, tu do tranh lang phi bo nho
         public static int tinhtong(int x, int y)
         {
             return x + y;
         }
     }
+    
 }
