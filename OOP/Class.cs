@@ -46,21 +46,29 @@ namespace OOP
     {
         private double weight =123.2;
         private double height =523.1;
+        //bien tinh la bien dung chung cua lop. goi thong qua ten class ma khong can khoi tao doi tuong, tu do tranh lang phi bo nho
+        public static int count = 0;
         //phuong thuc khoi tao khong tham so
         public SucVat()
         {
             weight = 100;
             height = 120.3;
+            count++;
         }
         //phuong thuc khoi tao 2 tham so
         public SucVat(double h, double w)
         {
             weight=w;
             height=h;
+            count++;
         }
         public void xuat()
         {
-            Console.WriteLine("Chieu cao cua ga la {0}  Can nang la {1}", height, weight);
+            Console.WriteLine("Chieu cao cua ga/heo la {0}  Can nang la {1}", height, weight);
+        }
+        public static int tinhtong(int x, int y)
+        {
+            return x + y;
         }
     }
 }
