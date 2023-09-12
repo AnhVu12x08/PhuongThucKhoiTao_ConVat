@@ -19,6 +19,8 @@ namespace OOP
 
             //phuong thuc khoi tao khong tham so va 3 tham so
             //phuong thuc khoi tao khong tham so
+            Console.WriteLine("so con vat la {0}", SucVat.count);
+            SucVat lon = new SucVat();
             SucVat ga = new SucVat();
             ga.xuat();
             //phuong thuc khoi tao co 2 tham so
@@ -26,6 +28,12 @@ namespace OOP
             double h = 10.5;
             SucVat heo = new SucVat(w,h);
             heo.xuat();
+            //su dung bien tinh thong qua ten lop ma khong can thong qua doi tuong
+            Console.WriteLine("so con vat la {0}", SucVat.count);
+            //su dung phuong thuc tinh thong qua ten lop ma khong can phai tao doi tuong
+            int x = 10;
+            int y = 20;
+            Console.WriteLine("ket qua tong cua x lva y la {0}", SucVat.tinhtong(x, y));
 
         }
     }
