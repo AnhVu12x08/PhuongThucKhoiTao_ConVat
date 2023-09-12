@@ -35,7 +35,7 @@ namespace OOP
             //neu khong co phuong thuc tinh thi ta phai tao doi tuong de co the goi phuong thuc tinh tong thong qua doi tuong
             int x = 10;
             int y = 20;
-            Console.WriteLine("ket qua tong cua x va y la {0}", TienIch.tinhtong(x, y));
+            Console.WriteLine("ket qua tong cua x va y la {0}", TienIch.tinhtong(x, y));        
 
         }
     }

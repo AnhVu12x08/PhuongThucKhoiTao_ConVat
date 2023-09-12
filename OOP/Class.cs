@@ -68,6 +68,9 @@ namespace OOP
         }
 
     }
+
+    //lop tinh la lop chua cac bien va phuong thuc tinh. khong the tao doi tuong thuoc lop tinh, nham tranh lang phi bo nho
+    //trong c# co nhieu lop tinh mac dinh nhu Math. lop nay chua hang so PI, E,...va cac phong thuc tinh nhu Min, Max,...
     public static class TienIch
     {
         //phuong thuc tinh la phong thuc dung chung cua lop. goi thong qua ten class ma khong can khoi tao doi tuong, tu do tranh lang phi bo nho
@@ -76,5 +79,5 @@ namespace OOP
             return x + y;
         }
     }
-    
+
 }
